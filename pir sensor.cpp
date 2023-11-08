@@ -1,6 +1,6 @@
 #include <Arduino.h>
-int ledPin = 2;                // choose the pin for the LED
-int inputPin = 22;               // choose the input pin (for PIR sensor)
+int ledPin = LED_BUILTIN;                // choose the pin for the LED
+int inputPin = 4;               // choose the input pin (for PIR sensor)
 int pirState = LOW;             // we start, assuming no motion detected
 int val = 0;                    // variable for reading the pin status
 
